@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComponentesPersonalizados
+namespace Componentes0
 {
     public class Class1
     {
