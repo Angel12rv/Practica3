@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        bool continueProgram = true;
+
+        while (continueProgram)
+        {
+            Console.WriteLine("=== Menu ===");
+            Console.WriteLine("1. Option 1");
+            Console.WriteLine("2. Option 2");
+            Console.WriteLine("3. Option 3");
+            Console.WriteLine("4. Quitter");
+            Console.Write("Veuillez sélectionner une option: ");
+            
+            string userInput = Console.ReadLine();
+            
+            switch (userInput)
+            {
+                case "1":
+                    Console.WriteLine("Vous avez choisi l'option 1.");
+                    // Ajoutez ici le code pour l'option 1
+                    break;
+                case "2":
+                    Console.WriteLine("Vous avez choisi l'option 2.");
+                    // Ajoutez ici le code pour l'option 2
+                    break;
+                case "3":
+                    Console.WriteLine("Vous avez choisi l'option 3.");
+                    // Ajoutez ici le code pour l'option 3
+                    break;
+                case "4":
+                    Console.WriteLine("Au revoir!");
+                    continueProgram = false;
+                    break;
+                default:
+         
